@@ -19,6 +19,7 @@
 		8467F2631DB0CE5C00BC449B /* WQCreateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467F2621DB0CE5C00BC449B /* WQCreateVC.m */; };
 		8467F2661DB0CE6F00BC449B /* WQScanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467F2651DB0CE6F00BC449B /* WQScanVC.m */; };
 		84938B7D1DB4676500C17EFF /* Airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = 84938B7C1DB4676500C17EFF /* Airplane.png */; };
+		84938B801DB4702C00C17EFF /* WQCreateCode.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84938B7F1DB4702C00C17EFF /* WQCreateCode.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		8467F2641DB0CE6F00BC449B /* WQScanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WQScanVC.h; sourceTree = "<group>"; };
 		8467F2651DB0CE6F00BC449B /* WQScanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WQScanVC.m; sourceTree = "<group>"; };
 		84938B7C1DB4676500C17EFF /* Airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Airplane.png; sourceTree = "<group>"; };
+		84938B7F1DB4702C00C17EFF /* WQCreateCode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WQCreateCode.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		8402E7311D76A7CD00FC7C51 /* WQQRScan */ = {
 			isa = PBXGroup;
 			children = (
+				84938B7E1DB4702C00C17EFF /* EffectGif */,
 				8467F2571DB0CA0A00BC449B /* WQCode */,
 				84938B7C1DB4676500C17EFF /* Airplane.png */,
 				8467F25E1DB0CCB000BC449B /* WQMenuTVC.h */,
@@ -165,6 +168,14 @@
 				8467F2591DB0CA0A00BC449B /* WQCode.m */,
 			);
 			path = WQCode;
+			sourceTree = "<group>";
+		};
+		84938B7E1DB4702C00C17EFF /* EffectGif */ = {
+			isa = PBXGroup;
+			children = (
+				84938B7F1DB4702C00C17EFF /* WQCreateCode.gif */,
+			);
+			path = EffectGif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 			files = (
 				8402E7421D76A7CD00FC7C51 /* LaunchScreen.storyboard in Resources */,
 				8402E73F1D76A7CD00FC7C51 /* Assets.xcassets in Resources */,
+				84938B801DB4702C00C17EFF /* WQCreateCode.gif in Resources */,
 				8402E73D1D76A7CD00FC7C51 /* Main.storyboard in Resources */,
 				84938B7D1DB4676500C17EFF /* Airplane.png in Resources */,
 			);
